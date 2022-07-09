@@ -1,0 +1,2 @@
+1. show photo and feeling when users update on create post window.
+2. Handle back end when users post a new post.
