@@ -79,7 +79,7 @@ function AuthPage() {
                             window.localStorage.setItem("FSCuserphoto", res.data.photo);
                         } else {
                             window.localStorage.setItem("FSCusername", username);
-                            window.localStorage.setItem("FSCuserphoto", "");
+                            window.localStorage.setItem("FSCuserphoto", url);
                         }
                         navigate("/")
                     }).catch(error => console.log(error))
